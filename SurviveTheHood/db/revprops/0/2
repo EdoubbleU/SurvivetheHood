@@ -1,0 +1,13 @@
+K 10
+svn:author
+V 5
+maur-
+K 8
+svn:date
+V 27
+2020-04-01T02:01:21.508539Z
+K 7
+svn:log
+V 54
+Refactoring Base Class for Player, Monster, and Trader
+END

@@ -1,0 +1,7 @@
+D:\Survive the Hood\Projects\Engine\bin\Debug\Engine.dll
+D:\Survive the Hood\Projects\Engine\bin\Debug\Engine.pdb
+D:\Survive the Hood\Projects\Engine\obj\Debug\Engine.dll
+D:\Survive the Hood\Projects\Engine\obj\Debug\Engine.pdb
+D:\Survive the Hood\Projects\Engine\obj\Debug\Engine.g.resources
+D:\Survive the Hood\Projects\Engine\obj\Debug\Engine.csprojAssemblyReference.cache
+D:\Survive the Hood\Projects\Engine\obj\Debug\Engine.csproj.CoreCompileInputs.cache
