@@ -10,11 +10,13 @@ namespace Engine.Models
     {
         public int ItemID { get; }
         public int Quantity { get; }
+        public int Weapon { get; }
 
-        public ItemQuantity(int itemID, int quantity)
+        public ItemQuantity(int itemID, int quantity, int weapon)
         {
             ItemID = itemID;
             Quantity = quantity;
+            Weapon = weapon;
         }
     }
 }

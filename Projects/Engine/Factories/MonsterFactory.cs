@@ -14,8 +14,7 @@ namespace Engine.Factories
             switch (monsterID)
             {
                 case 1:
-                    Monster streetGang = 
-                        new Monster("Street Gang", "street_gang.jpg", 4, 4, 1, 2, 5, 1);
+                    Monster streetGang = new Monster("Street Gang", "street_gang.jpg", 4, 4, 1, 2, 5, 1);
 
                     AddLootItem(streetGang, 1002, 25);
                     AddLootItem(streetGang, 9001, 50);
@@ -24,8 +23,7 @@ namespace Engine.Factories
                     return streetGang;
 
                 case 2:
-                    Monster hoodGang = 
-                        new Monster("Tyrone", "Tyrone_Biggums.jpg", 5, 5, 1, 2, 5, 1);
+                    Monster hoodGang = new Monster("Tyrone", "tyrone_Biggums.jpg", 5, 5, 1, 2, 5, 1);
 
                     AddLootItem(hoodGang, 1002, 35);
                     AddLootItem(hoodGang, 9003, 50);
@@ -34,8 +32,7 @@ namespace Engine.Factories
                     return hoodGang;
 
                 case 3:
-                    Monster Tyrone =
-                        new Monster("Hood Gang", "hoodpark_gang.jpg", 10, 10, 1, 4, 10, 3);
+                    Monster Tyrone = new Monster("Hood Gang", "hoodpark_gang.jpg", 10, 10, 1, 4, 10, 3);
 
                     AddLootItem(Tyrone, 1002, 10);
                     AddLootItem(Tyrone, 9001, 15);

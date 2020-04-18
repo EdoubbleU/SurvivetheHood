@@ -14,3 +14,19 @@ D:\Survive the Hood\Projects\TestEngine\obj\Debug\TestEngine.csproj.CoreCompileI
 D:\Survive the Hood\Projects\TestEngine\obj\Debug\TestEngine.csproj.CopyComplete
 D:\Survive the Hood\Projects\TestEngine\obj\Debug\TestEngine.dll
 D:\Survive the Hood\Projects\TestEngine\obj\Debug\TestEngine.pdb
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\bin\Debug\TestEngine.dll
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\bin\Debug\TestEngine.pdb
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\bin\Debug\Engine.dll
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\bin\Debug\Engine.pdb
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\obj\Debug\TestEngine.csprojAssemblyReference.cache
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\obj\Debug\TestEngine.csproj.CoreCompileInputs.cache
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\obj\Debug\TestEngine.csproj.CopyComplete
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\obj\Debug\TestEngine.dll
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\TestEngine\obj\Debug\TestEngine.pdb

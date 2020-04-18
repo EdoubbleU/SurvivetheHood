@@ -10,6 +10,7 @@ namespace Engine.Models
     {
         private GameItem _item;
         private int _quantity;
+        private int _weapon;
 
         public GameItem Item
         {
@@ -28,6 +29,16 @@ namespace Engine.Models
             {
                 _quantity = value;
                 OnPropertyChanged(nameof(Quantity));
+            }
+        }
+
+        public int Weapon
+        {
+            get { return _weapon; }
+            set
+            {
+                _weapon = value;
+                OnPropertyChanged(nameof(Weapon));
             }
         }
 

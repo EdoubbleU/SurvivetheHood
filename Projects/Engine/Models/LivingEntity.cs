@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 
 namespace Engine.Models
 {
@@ -17,6 +18,7 @@ namespace Engine.Models
         private int _maximumHitPoints;
         private int _money;
         private int _level;
+        private GameItem _currentWeapon;
 
         public string Name
         {
@@ -68,28 +70,55 @@ namespace Engine.Models
             }
         }
 
+        public GameItem CurrentWeapon
+        {
+            get { return _currentWeapon; }
+            set
+            {
+                if (_currentWeapon != null)
+                {
+                    _currentWeapon.Action.OnActionPerformed -= RaiseActionPerformedEvent;
+                }
+
+                _currentWeapon = value;
+
+                if (_currentWeapon != null)
+                {
+                    _currentWeapon.Action.OnActionPerformed += RaiseActionPerformedEvent;
+                }
+
+                OnPropertyChanged();
+            }
+        }
+
         public ObservableCollection<GameItem> Inventory { get; }
 
         public ObservableCollection<GroupedInventoryItem> GroupedInventory { get; }
 
-        public List<GameItem> Weapons => Inventory.Where(i => i is Weapon).ToList();
+        public List<GameItem> Weapons => Inventory.Where(i => i.Category == GameItem.ItemCategory.Weapon).ToList();
 
         public bool IsDead => CurrentHitPoints <= 0;
 
         #endregion
 
-        public event EventHandler OnKilled;      
+        public event EventHandler<string> OnActionPerformed;
+        public event EventHandler OnKilled;
 
-        protected LivingEntity(string name, int maximumHitPoints, int currentHitPoints, int money, int level= 1)
+        protected LivingEntity(string name, int maximumHitPoints, int currentHutPoints, int money, int level = 1)
         {
             Name = name;
             MaximumHitPoints = maximumHitPoints;
-            CurrentHitPoints = currentHitPoints;
+            CurrentHitPoints = currentHutPoints;
             Money = money;
             Level = level;
 
             Inventory = new ObservableCollection<GameItem>();
             GroupedInventory = new ObservableCollection<GroupedInventoryItem>();
+        }
+
+        public void UseCurrentWeaponOn(LivingEntity target)
+        {
+            CurrentWeapon.PerformAction(this, target);
         }
 
         public void TakeDamage(int hitPointsOfDamage)
@@ -158,7 +187,7 @@ namespace Engine.Models
         {
             Inventory.Remove(item);
 
-            GroupedInventoryItem groupedInventoryItemToRemove = item.IsUnique ?
+            GroupedInventoryItem groupedInventoryItemToRemove = item.IsUnique?
                 GroupedInventory.FirstOrDefault(gi => gi.Item == item) :
                 GroupedInventory.FirstOrDefault(gi => gi.Item.ItemTypeID == item.ItemTypeID);
 
@@ -182,6 +211,11 @@ namespace Engine.Models
         private void RaiseOnKilledEvent()
         {
             OnKilled?.Invoke(this, new System.EventArgs());
+        }
+
+        private void RaiseActionPerformedEvent(object sender, string result)
+        {
+            OnActionPerformed?.Invoke(this, result);
         }
 
         #endregion

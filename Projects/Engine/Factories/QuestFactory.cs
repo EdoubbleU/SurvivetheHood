@@ -17,8 +17,8 @@ namespace Engine.Factories
             List<ItemQuantity> itemsToComplete = new List<ItemQuantity>();
             List<ItemQuantity> rewardItems = new List<ItemQuantity>();
 
-            itemsToComplete.Add(new ItemQuantity(9001, 5));
-            rewardItems.Add(new ItemQuantity(1003, 1));
+            itemsToComplete.Add(new ItemQuantity(9001, 5, 1));
+            rewardItems.Add(new ItemQuantity(1003, 1, 1));
 
             //Create the quest
             _quests.Add(new Quest(1,
@@ -32,9 +32,9 @@ namespace Engine.Factories
             _quests.Add(new Quest(2,
                 "It's About to go Down",
                 "Defeat the hoodpark Gang",
-                new List<ItemQuantity> { new ItemQuantity(9003, 5)},
+                new List<ItemQuantity> { new ItemQuantity(9003, 5, 1)},
                 250, 100,
-                new List <ItemQuantity> { new ItemQuantity(1003, 1)}));
+                new List <ItemQuantity> { new ItemQuantity(1003, 1, 1)}));
         }
 
         internal static Quest GetQuestByID(int id)

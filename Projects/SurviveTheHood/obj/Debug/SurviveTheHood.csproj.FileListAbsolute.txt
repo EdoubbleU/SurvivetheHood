@@ -22,3 +22,27 @@ D:\Survive the Hood\Projects\SurviveTheHood\bin\Debug\SurviveTheHood.application
 D:\Survive the Hood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood.exe.manifest
 D:\Survive the Hood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood.application
 D:\Survive the Hood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood.csproj.CoreCompileInputs.cache
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\bin\Debug\SurviveTheHood.exe.config
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\bin\Debug\SurviveTheHood.exe.manifest
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\bin\Debug\SurviveTheHood.application
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\bin\Debug\SurviveTheHood.exe
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\bin\Debug\SurviveTheHood.pdb
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\bin\Debug\Engine.dll
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\bin\Debug\Engine.pdb
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood.csprojAssemblyReference.cache
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\TradeScreen.baml
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\MainWindow.g.cs
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\TradeScreen.g.cs
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\App.g.cs
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood_MarkupCompile.cache
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood_MarkupCompile.lref
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\MainWindow.baml
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood.g.resources
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood.Properties.Resources.resources
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood.csproj.GenerateResource.cache
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood.csproj.CoreCompileInputs.cache
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood.exe.manifest
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood.application
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood.csproj.CopyComplete
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood.exe
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\SurviveTheHood\obj\Debug\SurviveTheHood.pdb

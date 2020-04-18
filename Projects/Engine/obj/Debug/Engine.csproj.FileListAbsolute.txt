@@ -5,3 +5,10 @@ D:\Survive the Hood\Projects\Engine\obj\Debug\Engine.pdb
 D:\Survive the Hood\Projects\Engine\obj\Debug\Engine.g.resources
 D:\Survive the Hood\Projects\Engine\obj\Debug\Engine.csprojAssemblyReference.cache
 D:\Survive the Hood\Projects\Engine\obj\Debug\Engine.csproj.CoreCompileInputs.cache
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\Engine\bin\Debug\Engine.dll
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\Engine\bin\Debug\Engine.pdb
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\Engine\obj\Debug\Engine.csprojAssemblyReference.cache
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\Engine\obj\Debug\Engine.g.resources
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\Engine\obj\Debug\Engine.csproj.CoreCompileInputs.cache
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\Engine\obj\Debug\Engine.dll
+C:\Users\Ellio\source\repos\EdoubbleU\SurvivetheHood\Projects\Engine\obj\Debug\Engine.pdb
